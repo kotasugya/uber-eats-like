@@ -1,3 +1,4 @@
+# --- ここから追加 ---
 class Order < ApplicationRecord
   has_many :line_foods
   has_one :restaurant, through: :line_food
@@ -13,3 +14,4 @@ class Order < ApplicationRecord
     end
   end
 end
+# --- ここまで追加 ---

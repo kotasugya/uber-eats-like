@@ -1,3 +1,4 @@
+# --- ここから追加 ---
 class LineFood < ApplicationRecord
   belongs_to :food
   belongs_to :restaurant
@@ -12,3 +13,4 @@ class LineFood < ApplicationRecord
     food.price * count
   end
 end
+# --- ここまで追加 ---
